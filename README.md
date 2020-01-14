@@ -49,4 +49,5 @@ python main.py
 
 ## Пример использования программы
 
+
 ![Sample](https://raw.githubusercontent.com/ViktorKch/images/master/fire_garbage.gif)
