@@ -188,7 +188,7 @@ def star_generator(height, width, number=300):
 def main(canvas):
     frame_container = []
     level = [0]
-    start_year = 2015
+    start_year = 1957
     canvas.border()
     curses.curs_set(False)
     canvas.nodelay(True)
