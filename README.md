@@ -49,4 +49,4 @@ python main.py
 
 ## Пример использования программы
 
-![Sample](https://dvmn.org/media/filer_public/f0/c1/f0c1477d-de64-475c-8aba-d30a1c3ee689/fire_garbage.gif)
+![Sample](https://raw.githubusercontent.com/ViktorKch/images/master/fire_garbage.gif)
