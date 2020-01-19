@@ -95,7 +95,6 @@ async def animate_spaceship(canvas, frames, frame_container):
 async def run_spaceship(canvas, coros, start_row, start_column, frame_container, level, start_year):
 
     height, width = canvas.getmaxyx()
-    symbol_size = 0
     border_size = 1
 
     frame_size_y, frame_size_x = get_frame_size(frame_container[0])
@@ -111,7 +110,7 @@ async def run_spaceship(canvas, coros, start_row, start_column, frame_container,
         current_year = start_year + level[0]
         if spacebar and current_year>=2020:
             shot_pos_x = frame_pos_x + round(frame_size_x / 2)
-            shot_pos_y = frame_pos_y - symbol_size
+            shot_pos_y = frame_pos_y - 0
             shot_coro = fire(canvas, shot_pos_y, shot_pos_x)
             coros.append(shot_coro)
 
